@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firman Bio</title>
+    <link href="img/logo/f.png" rel="shortcut icon">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<!-- <body class="font-[Poppins]"> -->
+
+<body oncontextmenu="return false" onkeydown="return false" onmousedown="return false" id="Beranda"
+    class="font-[Poppins]">
+
+    <div style="background: url(img/load/load.gif) no-repeat center center; background-size: 15%; height: 100vh; width: 100%; position: fixed; z-index: 100;"
+        id="preloader"></div>
+
+    <!-- navbar -->
+    <nav
+        class="fixed duration-1000 top-0 w-full z-50 p-5 bg-gradient-to-r from-[#9DC183] to-[#B1D8B7] shadow-lg md:flex md:items-center md:justify-between">
+        <div class="flex justify-between items-center">
+            <span class="text-lg text-white font-bold cursor-pointer"> Biodata </span>
+            <span class="lg:hidden md:hidden">
+                <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+            </span>
+        </div>
+        <ul class="md:flex md:items-center z-[1] md:z-auto md:static absolute lg:bg-none md:bg-none bg-gradient-to-r from-[#9DC183] to-[#B1D8B7] 
+            w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 top-[-400px]
+            transition-all ease-in-out duration-500">
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#" class="text-xl text-white hover:text-opacity-50 duration-500">Beranda</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#Tentang Saya" class="text-xl text-white hover:text-opacity-50 duration-500">Tentang</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#Project" class="text-xl text-white hover:text-opacity-50 duration-500">Project</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#Sertif" class="text-xl text-white hover:text-opacity-50 duration-500">Sertif</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#Hobi" class="text-xl text-white hover:text-opacity-50 duration-500">Hobi</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#Kontak" class="text-xl text-white hover:text-opacity-50 duration-500">Kontak</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- hero -->
+    <section id="home" class="pt-16 ">
+        <div class="container flex flex-wrap items-center justify-center
+             mx-auto mt-10 md:px-12 md:flex-row">
+            <div class="mb-14 lg:mb-0 lg:w-1/2">
+                <h1 class="scLeft max-w-xl text-slate-700 font-bold text-center
+             text-2xl sm:text-3xl md:text-4xl lg:text-5xl lg:text-center xl:text-left lg:leading-tight mb-5">Firman
+                    Hidayatullah
+                </h1>
+                <p
+                    class="scLeft text max-w-xl font-medium text-center text-slate-600 lg:text-center lg:pb-6 xl:text-left lg:max-w-md md:text-2xl lg:text-2xl">
+                    |
+                </p>
+            </div>
+            <div class="scRight">
+                <img class="w-52 sm:w-64 md:w-full lg:w-full rounded-full" src="img/me/me.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- end hero -->
+
+    <!-- tentang -->
+    <section id="Tentang Saya" class="py-5 mt-24 bg-gradient-to-r from-[#9DC183] to-[#B1D8B7]">
+        <div class="container flex flex-wrap items-center justify-center
+             mx-auto mt-10 mb-[-200px] lg:mb-0 md:px-12 md:flex-row">
+            <div class="lg:mb-0 lg:w-1/2">
+                <h1 class="scroll max-w-xl text-slate-700 font-bold text-center
+                         text-2xl sm:text-3xl md:text-4xl sm:text-center sm:mx-4 md:text-center lg:text-3xl 
+                         lg:text-left lg:leading-tight mb-5">
+                    Tentang
+                </h1>
+                <p
+                    class="sc2 mx-4 pb-16 max-w-xl font-medium text-justify text-slate-600 lg:text-justify lg:max-w-md md:text-2xl lg:text-2xl">
+                    Memiliki ketertarikan mendalam pada bidang Website Development.
+                    Aktif mengikuti beasiswa dari Dicoding serta Codepolitan yang memberikan akses ke pelatihan dan
+                    sertifikasi profesional
+                    dalam bidang pemrograman. Berusaha untuk memperluas pengetahuan dengan mempelajari teknologi terbaru.
+                </p>
+            </div>
+            <div class="lg:mb-0 lg:pb-16 lg:w-1/2">
+                <h1
+                    class="sc3 max-w-xl text-slate-700 font-bold text-center
+                   sm:text-center sm:mx-4 text-2xl sm:text-3xl md:text-center md:text-4xl lg:text-3xl lg:text-left lg:leading-tight mb-5">
+                    Sosial Media
+                </h1>
+                <p
+                    class="sc4 text-center mx-4 max-w-xl font-medium text-slate-600 lg:text-justify lg:max-w-md md:text-2xl lg:text-2xl">
+                    Tak kenal maka tak sayang
+                </p>
+                <div class="sc4 flex justify-center sm:justify-start md:justify-center lg:justify-normal">
+                    <!-- youtube -->
+                    <a href="https://www.facebook.com/firman.hidayatullah?mibextid=vk8aRt" target="_blank" class="my-4 mx-4 w-9 h-9 mr-3 flex justify-center items-center
+                        hover:opacity-50">
+                        <img src="img/logo/fb.png" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/firmandyt/" target="_blank" class="my-4 mx-4 w-9 h-9 mr-3 flex justify-center items-center
+                        hover:opacity-50">
+                        <img src="img/logo/ig.png" alt="">
+                    </a>
+                    <a href="https://www.tiktok.com/@firman.txt?_t=8i2OtjrFeMM&_r=1" target="_blank" class="mb-52 my-4 mx-4 w-9 h-9 mr-3 flex justify-center items-center
+                                            hover:opacity-50">
+                        <img src="img/logo/tiktok.png" alt="">
+                    </a>
+                    <a href="https://www.youtube.com/@firmandyt" target="_blank" class="mb-52 my-4 mx-4 w-9 h-9 mr-3 flex justify-center items-center
+                        hover:opacity-50">
+                        <img src="img/logo/yt.png" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/in/firmanhidayatullah/" target="_blank" class="my-4 mx-4 w-9 h-9 mr-3 flex justify-center items-center
+                                            hover:opacity-50">
+                        <img src="img/logo/linkedin.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+    </section>
+    <!-- end tentang -->
+
+    <!-- projek -->
+    <section id="Project" class="mx-10 pt-36 pb-16 flex justify-center">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <!-- <h4 class="font-semibold text-lg text-primary mb-2">Portofolio</h4> -->
+                    <h2
+                        class="scroll font-bold text-slate-700 text-2xl mb-4 text-center sm:text-3xl md:text-center lg:text-3xl">
+                        Project</h2>
+                    <p class="scroll font-medium text-center text-md text-slate-600 md:text-lg lg:text-xl">Beberapa
+                        contoh
+                        project yang pernah saya kerjakan</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <div class="sc1 w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white h-[480px] rounded-xl shadow-[#9DC183] shadow-lg overflow-hidden mb-10">
+                        <img src="img/projek/alibaba.PNG" class="w-full h-[200px]">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <p class="block mb-3 font-semibold text-xl text-slate-700 hover:text-[#9DC183] truncate">
+                                    Cloud Computing
+                                </p>
+                            </h3>
+                            <p class="font-medium text-left text-base text-slate-600 mb-6">
+                                Infrastructure as a Service (IaaS) adalah layanan yang menyediakan infrastruktur seperti server virtual melalui internet.
+                            </p>
+                            <button
+                                class="bi bi-info-circle font-medium text-sm text-white bg-[#9DC183] py-2 px-4 rounded-lg hover:opacity-80 show-modal-cloud">
+                                Selengkapnya</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc1 w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white h-[480px] rounded-xl shadow-[#9DC183] shadow-lg overflow-hidden mb-10">
+                        <img src="img/projek/pakar.PNG" class="w-full h-[200px]">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <p
+                                    class="block mb-3 font-semibold text-xl text-slate-700 hover:text-[#9DC183] truncate">
+                                    Artificial Intelligence
+                                </p>
+                            </h3>
+                            <p class="font-medium text-left text-base text-slate-600 mb-6">
+                                Artificial Intelligence (AI) ialah cabang ilmu komputer guna melakukan tugas yang
+                                memerlukan kecerdasan manusia.
+                            </p>
+                            <button
+                                class="bi bi-info-circle font-medium text-sm text-white bg-[#9DC183] py-2 px-4 rounded-lg hover:opacity-80 show-modal-ai">
+                                Selengkapnya</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc1 w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white h-[480px] rounded-xl shadow-[#9DC183] shadow-lg overflow-hidden mb-10">
+                        <img src="img/projek/flutter.PNG" class="w-full h-[200px]">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <p
+                                    class="block mb-3 font-semibold text-xl text-slate-700 hover:text-[#9DC183] truncate">
+                                    Flutter Mobile
+                                </p>
+                            </h3>
+                            <p class="font-medium text-left text-base text-slate-600 mb-6">
+                                Platform yang digunakan developer untuk membuat aplikasi multiplatform baik
+                                Android, iOS, web, dan desktop.
+                            </p>
+                            <button
+                                class="bi bi-info-circle font-medium text-sm text-white bg-[#9DC183] py-2 px-4 rounded-lg hover:opacity-80 show-modal">
+                                Selengkapnya</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc2 w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white h-[480px] rounded-xl shadow-[#9DC183] shadow-lg overflow-hidden mb-10">
+                        <img src="img/projek/vege.PNG" class="w-full h-[200px]">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <p
+                                    class="block mb-3 font-semibold text-xl text-slate-700 hover:text-[#9DC183] truncate">
+                                    Website Design
+                                </p>
+                            </h3>
+                            <p class="font-medium text-left text-base text-slate-600 mb-6">
+                                Merancang tampilan visual seperti pemilihan elemen-elemen contohnya tata letak halaman,
+                                warna, font dan gambar.
+                            </p>
+                            <button
+                                class="bi bi-info-circle font-medium text-sm text-white bg-[#9DC183] py-2 px-4 rounded-lg hover:opacity-80 show-modalw">
+                                Selengkapnya</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc3 w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white h-[480px] rounded-xl shadow-[#9DC183] shadow-lg overflow-hidden mb-10">
+                        <img src="img/projek/hidroponik.PNG" class="w-full h-[200px]">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <p
+                                    class="block mb-3 font-semibold text-xl text-slate-700 hover:text-[#9DC183] truncate">
+                                    Hidroponik
+                                </p>
+                            </h3>
+                            <p class="font-medium text-base text-left text-slate-600 mb-6">
+                                Salah satu metode dalam budidaya menanam dengan memanfaatkan air tanpa menggunakan media
+                                tanah.
+                            </p>
+                            <button
+                                class="bi bi-info-circle font-medium text-sm text-white bg-[#9DC183] py-2 px-4 rounded-lg hover:opacity-80 show-modala">
+                                Selengkapnya</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc2 w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white h-[480px] rounded-xl shadow-lg shadow-[#9DC183] overflow-hidden mb-10">
+                        <img src="img/projek/py.PNG" class="w-full h-[200px]">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <p
+                                    class="block mb-3 font-semibold text-xl text-slate-700 hover:text-[#9DC183] truncate">
+                                    Python
+                                </p>
+                            </h3>
+                            <p class="font-medium text-base text-left text-slate-600 mb-6">
+                                Bahasa pemrograman komputer yang biasa dipakai untuk membangun situs, aplikasi, dan
+                                melakukan analisis data.
+                            </p>
+                            <button
+                                class="bi bi-info-circle font-medium text-sm text-white bg-[#9DC183] py-2 px-4 rounded-lg hover:opacity-80 show-modalb">
+                                Selengkapnya</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end projek -->
+
+    <!-- modal cloud -->
+    <div class="bg-gray-200">
+        <!-- <button class="bg-red-600 hover:bg-blue-700 px-3 py-1 rounded text-white m-5 show-modala">show Modal</button> -->
+        <div id=""
+            class="modalCloud z-50 pt-[110px] pb-32 h-screen w-full fixed left-0 top-0  justify-center 
+                    sm:my-[-190px] md:pb-56 lg:pb-56 sm:pt-52 sm:px-32 md:px-52 md:w-full md:pt-52 lg:px-96 lg:pt-52 items-center bg-opacity-50 hidden">
+            <div class="bg-white rounded-xl shadow-md mx-8 shadow-[#2F5233]">
+                <div class="border-b px-16 py-2">
+                    <h3 class="text-center py-4 text-slate-700 font-bold">Detail</h3>
+                    <img class="rounded-md" src="img/projek/cloud.PNG" alt="">
+                </div>
+                <div class="p-3 text-slate-700 text-left">
+                    Mengupload dan menjalankan project Laravel pada Alibaba Cloud menggunakan server virtual, seperti Elastic Compute Service
+                    (ECS) termasuk penerapan cloud computing pada jenis kategori Infrastructure as a Service (IaaS). Ini memungkinkan untuk mengelola dan mengonfigurasi lingkungan server sesuai kebutuhan project tanpa perlu membeli
+                    perangkat fisik secara langsung <a target="_blank"
+                        href="https://www.youtube.com/playlist?list=PLXvT-gzChFNvs4SgtEUJqup47hGjtIacN"> : <span class="text-blue-600 hover:text-blue-400">Link
+                            Video Deploy Project Laravel pada Alibaba Cloud</span></a>
+                </div>
+                <div class="flex justify-end items-center w-100 border-t p-3">
+                    <button
+                        class="bi bi-x-circle bg-[#9DC183] hover:opacity-80 px-3 py-1 rounded text-white mr-1 close-modal-cloud">
+                        Keluar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
+
+    <!-- modal ai -->
+    <div class="bg-gray-200">
+        <!-- <button class="bg-red-600 hover:bg-blue-700 px-3 py-1 rounded text-white m-5 show-modala">show Modal</button> -->
+        <div id=""
+            class="modalAi z-50 pt-[110px] pb-32 h-screen w-full fixed left-0 top-0  justify-center 
+                sm:my-[-190px] md:pb-56 lg:pb-56 sm:pt-52 sm:px-32 md:px-52 md:w-full md:pt-52 lg:px-96 lg:pt-52 items-center bg-opacity-50 hidden">
+            <div class="bg-white rounded-xl shadow-md mx-8 shadow-[#2F5233]">
+                <div class="border-b px-16 py-2">
+                    <h3 class="text-center py-4 text-slate-700 font-bold">Detail</h3>
+                    <img class="rounded-md" src="img/projek/ai.PNG" alt="">
+                </div>
+                <div class="p-3 text-slate-700 text-left">
+                    Salah satu contohnya yaitu knowledge based expert system dimana ilmu pengetahuan dari pakar
+                    diaplikasikan pada
+                    komputer sehingga dapat memberikan kesimpulan layaknya sedang konsultasi dengan seorang pakar untuk
+                    mengatasi permasalahan yang diberikan oleh pengguna <a target="_blank"
+                        href="https://ai.firmandyt.my.id"> : <span class="text-blue-600 hover:text-blue-400">Link
+                            Website Expert System</span></a>
+                </div>
+                <div class="flex justify-end items-center w-100 border-t p-3">
+                    <button
+                        class="bi bi-x-circle bg-[#9DC183] hover:opacity-80 px-3 py-1 rounded text-white mr-1 close-modal-ai">
+                        Keluar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
+
+    <!-- modal flutter -->
+    <div class="bg-gray-200">
+        <!-- <button class="bg-red-600 hover:bg-blue-700 px-3 py-1 rounded text-white m-5 show-modala">show Modal</button> -->
+        <div id=""
+            class="modal z-50 pt-[110px] pb-32 h-screen w-full fixed left-0 top-0  justify-center 
+            sm:my-[-190px] md:pb-56 lg:pb-56 sm:pt-52 sm:px-32 md:px-52 md:w-full md:pt-52 lg:px-96 lg:pt-52 items-center bg-opacity-50 hidden">
+            <div class="bg-white rounded-xl shadow-md mx-8 shadow-[#2F5233]">
+                <div class="border-b px-16 py-2">
+                    <h3 class="text-center py-4 text-slate-700 font-bold">Detail</h3>
+                    <img class="rounded-md" src="img/projek/demo.PNG" alt="">
+                </div>
+                <div class="p-3 text-slate-700 text-left">
+                    Awal kemunculan mobile apps di tahun 2000-an, tepatnya sekitar tahun 2009. Aplikasi mobile ini
+                    merupakan pengembangan
+                    dari rancangan aplikasi yang sebelumnya belum terlalu canggih. Berikut link video youtube project
+                    yang pernah saya kerjakan <a target="_blank"
+                        href="https://www.youtube.com/watch?v=TEDKMcH-OCM&feature=youtu.be"> : <span
+                            class="text-blue-600 hover:text-blue-400">Link Youtube</span></a>
+                </div>
+                <div class="flex justify-end items-center w-100 border-t p-3">
+                    <button
+                        class="bi bi-x-circle bg-[#9DC183] hover:opacity-80 px-3 py-1 rounded text-white mr-1 close-modal">
+                        Keluar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
+
+    <!-- modal web -->
+    <div class="bg-gray-200">
+        <!-- <button class="bg-red-600 hover:bg-blue-700 px-3 py-1 rounded text-white m-5 show-modala">show Modal</button> -->
+        <div id=""
+            class="modalw z-50 pt-[110px] pb-32 h-screen w-full fixed left-0 top-0  justify-center 
+            sm:my-[-190px] md:pb-56 lg:pb-56 sm:pt-52 sm:px-32 md:px-52 md:w-full md:pt-52 lg:px-96 lg:pt-52 items-center bg-opacity-50 hidden">
+            <div class="bg-white rounded-xl shadow-md mx-8 shadow-[#2F5233]">
+                <div class="border-b px-16 py-2">
+                    <h3 class="text-center py-4 text-slate-700 font-bold">Detail</h3>
+                    <img class="rounded-md" src="img/projek/products.PNG" alt="">
+                </div>
+                <div class="p-3 text-slate-700 text-left">
+                    Website dapat berisi berbagai jenis konten, seperti teks, gambar, video, dan elemen-elemen
+                    interaktif lainnya. Tujuan dari
+                    sebuah situs web bisa bermacam-macam, mulai dari menyediakan informasi, mempromosikan produk atau
+                    layanan. Berikut link project website
+                    yang pernah saya kerjakan <a target="_blank" href="https://vege.firmandyt.my.id"> :
+                        <span class="text-blue-600 hover:text-blue-400">Link Website Design</span></a>
+                </div>
+                <div class="flex justify-end items-center w-100 border-t p-3">
+                    <button
+                        class="bi bi-x-circle bg-[#9DC183] hover:opacity-80 px-3 py-1 rounded text-white mr-1 close-modalw">
+                        Keluar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
+
+    <!-- modal hidro -->
+    <div class="bg-gray-200">
+        <!-- <button class="bg-red-600 hover:bg-blue-700 px-3 py-1 rounded text-white m-5 show-modala">show Modal</button> -->
+        <div id=""
+            class="modala z-50 pt-[110px] pb-32 h-screen w-full fixed left-0 top-0 justify-center 
+            sm:my-[-190px] md:pb-56 lg:pb-56 sm:pt-52 sm:px-32 md:px-52 md:w-full md:pt-52 lg:px-96 lg:pt-52 items-center bg-opacity-50 hidden">
+            <div class="bg-white rounded-xl shadow-md mx-8 shadow-[#2F5233]">
+                <div class="border-b px-16 py-2">
+                    <h3 class="text-center py-4 text-slate-700 font-bold">Detail</h3>
+                    <img class="rounded-md" src="img/projek/hidro.PNG" alt="">
+                </div>
+                <div class="p-3 text-slate-700 text-left">
+                    Kegiatan ini bertujuan untuk membantu murid SMK mengerjakan tugas dari sekolah. Praktikum
+                    tersebut dibebaskan menggunakan media apa saja. Jadi saya menyarankan menggunakan bahan-bahan di
+                    sekitar semisal tisu, botol, baskom sebagai media penunjang. Berikut link video
+                    youtubenya <a target="_blank" href="https://www.youtube.com/watch?v=CS1b4lA2V2I">: <span
+                            class="text-blue-600 hover:text-blue-400">Link Youtube</span></a>
+                </div>
+                <div class="flex justify-end items-center w-100 border-t p-3">
+                    <button
+                        class="bi bi-x-circle bg-[#9DC183] hover:opacity-80 px-3 py-1 rounded text-white mr-1 close-modala">
+                        Keluar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
+
+    <!-- modal py -->
+    <div class="bg-gray-200">
+        <!-- <button class="bg-red-600 hover:bg-blue-700 px-3 py-1 rounded text-white m-5 show-modala">show Modal</button> -->
+        <div id=""
+            class="modalb z-50 pt-[110px] pb-32 h-screen w-full fixed left-0 top-0 justify-center 
+            sm:my-[-190px] md:pb-56 lg:pb-56 sm:pt-52 sm:px-32 md:px-52 md:w-full md:pt-52 lg:px-96 lg:pt-52 items-center bg-opacity-50 hidden">
+            <div class="bg-white rounded-xl shadow-md mx-8 shadow-[#2F5233]">
+                <div class="border-b px-16 py-2">
+                    <h3 class="text-center py-4 text-slate-700 font-bold">Detail</h3>
+                    <img class="rounded-md" src="img/projek/kalku.PNG" alt="">
+                </div>
+                <div class="p-3 text-slate-700 text-justify">
+                    Bahasa pemrograman tingkat tinggi yang bisa diartikan untuk tujuan umum. Diciptakan oleh Guido Van
+                    Rossum pada tahun
+                    1990 di negeri Belanda sebagai pengganti bahasa pemrograman. Berikut link video youtube project
+                    yang pernah saya kerjakan <a target="_blank" href="https://www.youtube.com/watch?v=CI6B2kV38Ok"> :
+                        <span class="text-blue-600 hover:text-blue-400">Link Youtube</span></a>
+                </div>
+                <div class="flex justify-end items-center w-100 border-t p-3">
+                    <button
+                        class="bi bi-x-circle bg-[#9DC183] hover:opacity-80 px-3 py-1 rounded text-white mr-1 close-modalb">
+                        Keluar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal -->
+
+    <!-- sertif -->
+    <section id="Sertif" class="flex justify-center p-2 mt-12 pt-16 pb-32 bg-gradient-to-r from-[#9DC183] to-[#B1D8B7]">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="mx-auto mb-12 text-center">
+                    <h2 class="scroll mb-2 text-lg font-semibold text-slate-700 sm:text-3xl lg:text-4xl">
+                        Sertifikat</h2>
+                    <p class="scroll text-md font-medium text-slate-600 md:text-lg">Berikut beberapa sertifikat yang
+                        pernah
+                        saya dapatkan</p>
+                </div>
+            </div>
+            <div
+                class="scroll w-full flex-wrap justify-center px-2 xl:mx-auto xl:w-10/12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+                <div class="sc1 rounded overflow-hidden bg-slate-100 shadow-lg flex flex-col">
+                    <div class="relative"><a>
+                            <img class="w-full h-[250px]" src="img/Sertif/alibaba.jpg">
+                            <div
+                                class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="px-6 py-4 mb-auto">
+                        <a
+                            class="text-lg hover:text-[#9DC183] transition text-slate-600 font-semibold duration-500 ease-in-out inline-block mb-2">
+                            ALIBABA</a>
+                        <p class="text-secondary dark:text-slate-700 md:text-left lg:text-left">
+                            Alibaba Cloud Certification
+                        </p>
+                    </div>
+                </div>
+
+                <div class="sc2 rounded overflow-hidden bg-slate-100 shadow-lg flex flex-col">
+                    <div class="relative"><a>
+                            <img class="w-full h-[250px]" src="img/Sertif/dbs.jpg">
+                            <div
+                                class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="px-6 py-4 mb-auto">
+                        <a
+                            class="text-lg hover:text-[#9DC183] transition text-slate-600 font-semibold duration-500 ease-in-out inline-block mb-2">
+                            DICODING</a>
+                        <p class="text-secondary dark:text-slate-700 md:text-left lg:text-left">
+                            Front End Website Developer
+                        </p>
+                    </div>
+                </div>
+
+                <div class="sc3 rounded overflow-hidden shadow-lg bg-slate-100 flex flex-col">
+                    <div class="relative"><a>
+                            <img class="w-full h-[250px]" src="img/Sertif/pkj.jpg">
+                            <div
+                                class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="px-6 py-4 mb-auto">
+                        <a
+                            class="font-semibold text-lg hover:text-[#9DC183] transition text-slate-600 duration-500 ease-in-out inline-block mb-2">
+                            INIXINDO
+                        </a>
+                        <p class="text-secondary text-slate-600 md:text-left lg:text-left">
+                            Pengadministrasian Keamanan Jaringan
+                        </p>
+                    </div>
+                </div>
+
+                <div class="sc1 rounded overflow-hidden bg-slate-100 shadow-lg flex flex-col">
+                    <div class="relative"><a>
+                            <img class="w-full h-[250px]" src="img/Sertif/mikro.PNG">
+                            <div
+                                class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="px-6 py-4 mb-auto">
+                        <a
+                            class="font-semibold text-lg hover:text-[#9DC183] transition text-slate-600 duration-500 ease-in-out inline-block mb-2">
+                            MIKROTIK</a>
+                        <p class="text-base text-secondary text-slate-600 md:text-left lg:text-left">
+                            Mikrotik Certified Network Associate
+                        </p>
+                    </div>
+                </div>
+
+                <div class="sc2 rounded overflow-hidden bg-slate-100 shadow-lg flex flex-col">
+                    <div class="relative"><a>
+                            <img class="w-full h-[250px]" src="img/Sertif/js.jpg">
+                            <div
+                                class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="px-6 py-4 mb-auto">
+                        <a
+                            class="font-semibold text-lg hover:text-[#9DC183] transition text-slate-600 duration-500 ease-in-out inline-block mb-2">
+                            CODEPOLITAN</a>
+                        <p class="text-base text-secondary text-slate-600 md:text-left lg:text-left">
+                            Belajar JavaScript DOM
+                        </p>
+                    </div>
+                </div>
+
+                <div class="sc3 rounded overflow-hidden bg-slate-100 shadow-lg flex flex-col">
+                    <div class="relative"><a>
+                            <img class="w-full h-[250px]" src="img/Sertif/data_science.jpg">
+                            <div
+                                class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="px-6 py-4 mb-auto">
+                        <a
+                            class="font-semibold text-lg hover:text-[#9DC183] transition text-slate-600 duration-500 ease-in-out inline-block mb-2">
+                            ASEAN FOUNDATION</a>
+                        <p class="text-base text-secondary text-slate-600 md:text-left lg:text-left">
+                            Data Science
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end sertif -->
+
+
+    <!-- hobby -->
+    <section id="Hobi" class="p-2 mt-8 pt-16 pb-32 flex justify-center">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="mx-auto mb-12 text-center">
+                    <h2 class="scroll mb-2 text-lg font-semibold text-slate-700 sm:text-3xl lg:text-4xl">
+                        Hobi</h2>
+                    <p class="scroll text-md font-medium text-slate-600 dark:text-dark md:text-lg">Kegemaran yang saya
+                        sukai
+                    </p>
+                </div>
+            </div>
+            <div
+                class=" w-full flex-wrap justify-center px-2 xl:mx-auto xl:w-10/12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+                <div class="sc1 zoom rounded overflow-hidden shadow-[#9DC183] shadow-lg flex flex-col">
+                    <div class="relative"><a>
+                            <img class="w-full h-[250px]" src="img/hobby/sawi.jpg">
+                        </a>
+                    </div>
+                    <div class="px-6 py-4 mb-auto">
+                        <a
+                            class="font-semibold text-lg hover:text-[#9DC183] transition text-slate-700 dark:text-slate-600 duration-500 ease-in-out inline-block mb-2">
+                            Hidroponik</a>
+                        <p class="text-secondary dark:text-slate-700 md:text-left lg:text-left">
+                            Berkebun sawi hidroponik di halaman rumah
+                        </p>
+                    </div>
+                </div>
+
+                <div class="sc2 rounded overflow-hidden shadow-[#9DC183] shadow-lg flex flex-col">
+                    <div class="relative"><a>
+                            <img class="w-full h-[250px]" src="img/me/bike.jpg">
+                        </a>
+                    </div>
+                    <div class="px-6 py-4 mb-auto">
+                        <a
+                            class="font-semibold text-lg hover:text-[#9DC183] transition text-slate-700 duration-500 ease-in-out inline-block mb-2">
+                            Gowes
+                        </a>
+                        <p class="text-secondary text-slate-600 md:text-left lg:text-left">
+                            Menjelajahi desa menikmati udara segar
+                        </p>
+                    </div>
+                </div>
+
+                <div class="sc3 rounded overflow-hidden shadow-lg shadow-[#9DC183] flex flex-col">
+                    <div class="relative"><a>
+                            <img class="w-full h-[250px]" src="img/hobby/selada.jpg">
+                        </a>
+                    </div>
+                    <div class="px-6 py-4 mb-auto">
+                        <a
+                            class="font-semibold text-lg hover:text-[#9DC183] transition text-slate-700 duration-500 ease-in-out inline-block mb-2">
+                            Hidroponik</a>
+                        <p class="text-base text-secondary text-slate-600 md:text-justify lg:text-justify">
+                            Berkebun selada hidroponik di halaman rumah
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end hobi -->
+
+    <!-- kontak -->
+    <div id="Kontak" class="w-full mt-12">
+        <div class="mx-auto mb-8 max-w-xl text-center">
+            <h2 class="scroll mb-4 text-3xl font-bold text-slate-600 sm:text-4xl lg:text-3xl">Kontak Email</h2>
+            <p class="scroll text-slate-600">Kirimi saya pesan
+                melalui email</p>
+            <p class="scroll text-md flex justify-center font-medium text-slate-600 md:text-lg mb-28">
+                <a href="mailto:firman.txt@gmail.com"
+                    class="my-4 mx-4 w-9 h-9 mr-3 mb-10 rounded-full flex justify-center items-cent hover:opacity-50 border-[3px]">
+                    <img class="" src="img/logo/gm.png" alt="">
+                </a>
+            </p>
+        </div>
+    </div>
+    <!-- end kontak -->
+
+    <!-- footer -->
+    <footer class="flex justify-center bg-gradient-to-r from-[#9DC183] to-[#B1D8B7] mt-12 pt-20 pb-8">
+        <div class="container">
+            <p class="flex justify-center">
+                <a href="https://www.facebook.com/firman.hidayatullah?mibextid=vk8aRt" target="_blank" class="my-4 mx-4 w-9 h-9 mr-3 rounded-full flex justify-center items-center
+                                    hover:opacity-50">
+                    <img src="img/logo/fb.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/firmandyt/" target="_blank" class="my-4 mx-4 w-9 h-9 mr-3 rounded-full flex justify-center items-center
+                                    hover:opacity-50">
+                    <img src="img/logo/ig.png" alt="">
+                </a>
+                <a href="https://www.tiktok.com/@firman.txt?_t=8i2OtjrFeMM&_r=1" target="_blank" class="my-4 mx-4 w-9 h-9 mr-3 flex justify-center items-center
+                                                                    hover:opacity-50">
+                    <img src="img/logo/tiktok.png" alt="">
+                </a>
+                <a href="https://www.youtube.com/@firmandyt" target="_blank" class="my-4 mx-4 w-9 h-9 mr-3 rounded-full flex justify-center items-center
+                                    hover:opacity-50">
+                    <img src="img/logo/yt.png" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/firmanhidayatullah/" target="_blank" class="my-4 mx-4 w-9 h-9 mr-3 rounded-full flex justify-center items-center
+                                                    hover:opacity-50">
+                    <img src="img/logo/linkedin.png" alt="">
+                </a>
+            </p>
+            <ul class="flex justify-center">
+                <a href="#">
+                    <li class="px-1 text-white hover:text-opacity-50 duration-700 text-base">Beranda</li>
+                </a>
+                <a href="#Tentang Saya">
+                    <li class="px-1 text-white hover:text-opacity-50 duration-700 text-base">Tentang</li>
+                </a>
+                <a href="#Project">
+                    <li class="px-1 text-white hover:text-opacity-50 duration-700 text-base">Project</li>
+                </a>
+                <a href="#Sertif">
+                    <li class="px-1 text-white hover:text-opacity-50 duration-700 text-base">Sertif</li>
+                </a>
+                <a href="#Hobi">
+                    <li class="px-1 text-white hover:text-opacity-50 duration-700 text-base">Hobi</li>
+                </a>
+            </ul>
+            <h1 class="py-5 text-center text-white text-xs"><span class="bi bi-c-circle"></span> Copyright 2023 - 2024 All
+                Rights
+                Reserved <br><br><span class="text-xs">Firman Hidayatulah</span></h1>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- tailwinds -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- text -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+
+    <!-- aos -->
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+
+    <!-- scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
