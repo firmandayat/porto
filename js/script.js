@@ -41,7 +41,7 @@ function Menu(e) {
       duration: 4,
       repeat: 2,
       text: {
-        value: "Hidroponik | Ngoding | Gowes",
+        value: "Website Development",
         delay: 3,
       },
       ease: "none",
