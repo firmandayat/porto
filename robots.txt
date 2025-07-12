@@ -1,7 +1,7 @@
 User-agent: Googlebot
-Disallow: *
+Disallow: 
 
 User-agent: *
 Allow: /
 
-Sitemap: https://https://firmandyt.my.id/sitemap.xml
+Sitemap: https://firmandyt.my.id/sitemap.xml
