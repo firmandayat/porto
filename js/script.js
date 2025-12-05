@@ -41,7 +41,7 @@ function Menu(e) {
       duration: 4,
       repeat: 2,
       text: {
-        value: "Website Development",
+        value: "Digital Marketing Specialist | SEO",
         delay: 3,
       },
       ease: "none",
@@ -80,6 +80,21 @@ sr.reveal(".sc1", { delay: 100 });
 sr.reveal(".sc2", { delay: 200 });
 sr.reveal(".sc3", { delay: 300 });
 sr.reveal(".sc4", { delay: 400 });
+
+// modal Meta
+const modalMeta = document.querySelector(".modalMeta");
+
+const showModalMeta = document.querySelector(".show-modal-meta");
+const closeModalMeta = document.querySelector(".close-modal-meta");
+
+showModalMeta.addEventListener("click", function () {
+  modalMeta.classList.remove("hidden");
+});
+
+closeModalMeta.addEventListener("click", function () {
+  modalMeta.classList.add("hidden");
+});
+// end
 
 // modal cloud
 const modalCloud = document.querySelector(".modalCloud");
